@@ -15,6 +15,9 @@ app.get('/about', (req, res) => {
 app.get('/person', (req, res) => {
   res.send('random');
 });
+app.get('/contact', (req, res) => {
+  res.send('kontak batin');
+});
 
 app.use('/', (req, res) => {
     res.send('<h1>gada isinya</h1>');
